@@ -11,8 +11,8 @@ function checkNumber() {
     
     for(let i = 1; i < 4; i++) {
    
-        let user_input = prompt("Enter a number between 1 and 10");
-
+        let user_input = parseInt(prompt("Enter a number between 1 and 10"));
+            console.log(user_input);
         if(user_input != correct_ans) {
             if(i === 3) {
                 alert("YOU LOSE! You do not have anymore chances !!"); 
